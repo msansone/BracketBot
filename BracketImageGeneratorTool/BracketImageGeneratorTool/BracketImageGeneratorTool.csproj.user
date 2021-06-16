@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>"Test Bracket" 0 6 "dog|1|cow|2|hippo|1|giraffe|2|donkey|1|elephant|2|zebra|1|horse|2|penguin|1|panda|2|marmot|1|hamster|2|owl|1|rabbit|2|iguana|1|elk|2" "cow|1|hippo|2|donkey|1|zebra|2|penguin|1|marmot|2|owl|1|iguana|2" "hippo|1|zebra|2|marmot|1|owl|2" "zebra|1|marmot|2" " marmot"</StartArguments>
+  </PropertyGroup>
+</Project>
