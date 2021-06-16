@@ -1,0 +1,2 @@
+# BracketBot
+Discord BracketBot
