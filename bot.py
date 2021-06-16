@@ -179,17 +179,17 @@ async def on_debug(ctx, *args):
         activeBracket = brackets[bracketName]
         
         print(activeBracket)
-            
+        
+@bot.command(name='decapitate')
+async def on_decapitate(ctx, *args):
+    
+    await ctx.send(f"'Tis but a flesh wound.")
+                
 @bot.command(name='dentalplan')
 async def on_dentalplan(ctx, *args):
     
     await ctx.send(f"Lisa needs braces.")
 
-@bot.command(name='decapitate')
-async def on_decapitate(ctx, *args):
-    
-    await ctx.send(f"'Tis but a flesh wound.")
-    
 @bot.command(name='matchup')
 async def on_matchup(ctx):
     
